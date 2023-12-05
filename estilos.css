@@ -1,0 +1,208 @@
+/* Estilos para todo el proyecto */
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f9f9f9; */
+    background-image: url("https://w0.peakpx.com/wallpaper/765/363/HD-wallpaper-herbal-pattern-pattern-green-herbal-vector.jpg");
+}
+
+.contenedor-centrado {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#titulo {
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.829);
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 39%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+#subtitulo {
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.829); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 45%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#tituloListado {
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 39%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#subtituloListado{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.863); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 45%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#altaTitulo{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 32%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#altaSubtitulo{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 45%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#modificarTitulo{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 30%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#modificarSubtitulo{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 45%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#eliminarTitulo{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 40%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#eliminarSubtitulo{
+    color: #74BDCB;
+    background-color: rgba(223, 223, 223, 0.884); 
+    display: inline-block;
+    padding: 10px 15px; 
+    margin-left: 45%;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color: #74BDCB;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EFE7BC;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EFE7BC;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #74BDCB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #74BDCB;
+}
+
+button {
+    padding: 8px;
+    margin: 4px;
+    background-color: #74BDCB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #74BDCB;
+}
+
+a {
+    padding: 8px;
+    margin: 4px;
+    background-color: #FFA384;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+a:hover {
+    background-color: #FFA384;
+}
