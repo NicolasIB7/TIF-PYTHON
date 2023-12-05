@@ -1,4 +1,5 @@
-const URL = "http://127.0.0.1:5000/";
+const URL = "https://nicolas7b.pythonanywhere.com/";
+// const URL = "http://127.0.0.1:5000/";
 
 // Realizamos la solicitud GET al servidor para obtener todos los productos
 
@@ -21,6 +22,7 @@ fetch(URL + "productos")
         '<td colspan="6" style="background-color: #EFE7BC; text-align: center; padding: 20px;">No posees productos aún.</td>';
       tablaProductos.appendChild(fila);
     } else {
+
       // Iteramos sobre los productos y agregamos filas a la tabla
       for (let producto of data) {
         let fila = document.createElement("tr");
@@ -38,12 +40,8 @@ fetch(URL + "productos")
           producto.precio +
           "</td>" +
           // Mostrar miniatura de la imagen desde la carpeta correcta
-          "<td><img src=static/imagenes/" +
-          producto.imagen_url +
-          ' alt="Imagen del producto" style="width: 100px;"></td>' +
-          '<td align="right">' +
-          producto.proveedor +
-          "</td>";
+          '<td><img src=https://www.pythonanywhere.com/user/Nicolas7B/files/home/Nicolas7B/mysite/static/imagenes/' + producto.imagen_url +' alt="Imagen del producto" style="width: 100px;"></td>' + '<td align="right">' + producto.proveedor + '</td>';
+
 
         //Una vez que se crea la fila con el contenido del producto, se agrega a la tabla utilizando el método appendChild del elemento tablaProductos.
         tablaProductos.appendChild(fila);

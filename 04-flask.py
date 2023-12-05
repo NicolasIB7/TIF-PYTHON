@@ -104,10 +104,12 @@ nueva_cantidad, nuevo_precio, nueva_imagen, nuevo_proveedor):
 # Cuerpo del programa
 #--------------------------------------------------------------------
 # Crear una instancia de la clase Catalogo
-catalogo = Catalogo(host='localhost', user='root', password='', database='miapp')
+catalogo = Catalogo(host='Nicolas7B.mysql.pythonanywhere-services.com', user='Nicolas7B', password='Prueba123', database='Nicolas7B$miapp')
+# catalogo = Catalogo(host='localhost', user='root', password='', database='miapp')
 
 # Carpeta para guardar las imagenes
-ruta_destino = 'static/imagenes/'
+ruta_destino = '/home/Nicolas7B/mysite/static/imagenes/'
+# ruta_destino = 'static/imagenes/'
 #--------------------------------------------------------------------
 @app.route("/productos", methods=["GET"])
 def listar_productos():
